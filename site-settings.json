@@ -107,7 +107,7 @@
 				}
 			]
 		},
-		"show_top_categories": true,
+		"show_top_categories": false,
 		"show_newsletter_section": true
 	},
 	"archive_page": {
@@ -227,17 +227,17 @@
 			{
 				"name": "address",
 				"title": "🚀 ADDRESS",
-				"desc": "123 Main Street, New York, NY 10001"
+				"desc": "PNB Vihar, Majra, Sewla Khurd, Dehradun, Uttarakhand, India 248171"
 			},
 			{
 				"name": "email",
 				"title": "💌 EMAIL",
-				"desc": "example@example.com"
+				"desc": "info@hindulive.com"
 			},
 			{
 				"name": "phone",
 				"title": "☎️ PHONE",
-				"desc": "+88 123 456 789"
+				"desc": "+91 8580793867"
 			},
 			{
 				"name": "working_hours",
