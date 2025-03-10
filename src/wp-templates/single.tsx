@@ -216,7 +216,17 @@ const Component: FaustTemplate<GetPostSiglePageQuery> = (props) => {
 							{/* SINGLE MAIN CONTENT */}
 							<SingleContent post={_post} />
 						</div>
+import AdSense from '@/components/AdSense';
 
+const Page: FaustTemplate<GetPageQuery> = (props) => {
+  return (
+    <div>
+     {/* Other page content */}
+      <AdSense client="ca-pub-7262174488893520" slot="1844359892" />
+      {/* Other page content */}
+    </div>
+  );
+};
 						{/* RELATED POSTS */}
 						<DynamicSingleRelatedPosts
 							posts={_relatedPosts}
