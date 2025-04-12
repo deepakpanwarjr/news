@@ -25,6 +25,7 @@ import { TCategoryCardFull } from '@/components/CardCategory1/CardCategory1'
 import SingleTypeAudio from '@/container/singles/single-audio/single-audio'
 import SingleTypeVideo from '@/container/singles/single-video/single-video'
 import SingleTypeGallery from '@/container/singles/single-gallery/single-gallery'
+import Image from 'next/image'
 
 const DynamicSingleRelatedPosts = dynamic(
 	() => import('@/container/singles/SingleRelatedPosts'),
@@ -41,6 +42,31 @@ const DynamicSingleType4 = dynamic(
 const DynamicSingleType5 = dynamic(
 	() => import('../container/singles/single-5/single-5'),
 )
+// Ad Banner Component with TypeScript interface
+interface AdBannerProps {
+  src: string;
+  link: string;
+  alt?: string;
+  width: number;
+  height: number;
+}
+
+const AdBanner = ({ src, link, alt, width, height }: AdBannerProps) => {
+  return (
+    <div className="my-8 text-center bg-gray-50 p-4 rounded-lg">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <Image
+          src={src}
+          alt={alt || "Advertisement"}
+          width={width}
+          height={height}
+          className="mx-auto border border-gray-200 rounded-md"
+        />
+      </a>
+      <p className="text-xs text-gray-500 mt-1">Advertisement</p>
+    </div>
+  );
+};
 
 const Component: FaustTemplate<GetPostSiglePageQuery> = (props) => {
 	//  LOADING ----------
@@ -211,7 +237,14 @@ const Component: FaustTemplate<GetPostSiglePageQuery> = (props) => {
 				) : (
 					<div>
 						{renderHeaderType()}
-
+{/* Banner before article content */}
+            <AdBanner 
+              src="/data/ad-baner.jpg" 
+              link="https://example.com"
+              alt="Sponsored Content"
+              width={728}
+              height={90}
+            />
 						<div className="container mt-10">
 							{/* SINGLE MAIN CONTENT */}
 							<SingleContent post={_post} />
