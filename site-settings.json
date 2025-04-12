@@ -32,7 +32,7 @@
 		"sub_title": "Let's explore the most popular categories"
 	},
 	"site_info": {
-		"site_title": "Hindu LIVE",
+		"site_title": "NW Now",
 		"site_description": "Find the latest news updates from uttarakhand state. get latest news stories from dehradun, uttarkashi news, haldwani, haridwar and all uttarakhand districts.",
 		"site_keywords": "uttarakhand news, dehradun news, haldwani news, uttarkashi news, haridwar news",
 		"site_author": "Deepak Panwar",
@@ -43,7 +43,7 @@
 		"site_state": "Uttarakhand",
 		"site_zip": "248171",
 		"site_country": "India",
-		"site_url": "https://www.hindulive.com",
+		"site_url": "https://nwnow.in",
 		"site_logo": "/logo_hindu.png",
 		"site_logo_light": "/logo_hindu.png",
 		"site_favicon": "/favicon.png"
@@ -51,25 +51,25 @@
 	"site_socials": [
 		{
 			"name": "facebook",
-			"url": "https://www.facebook.com/hindulivenews",
+			"url": "https://www.facebook.com/nwnownews",
 			"icon": "/images/socials/facebook.svg",
 			"description": "Follow us on Facebook"
 		},
 		{
-			"name": "twitter",
-			"url": "https://twitter.com/hindulivenews",
+			"name": "X",
+			"url": "https://x.com/nwnownews",
 			"icon": "/images/socials/x-twitter.svg",
 			"description": "Follow us on Twitter"
 		},
 		{
 			"name": "github",
-			"url": "https://www.github.com/hindulive",
+			"url": "https://www.github.com/nwnownews",
 			"icon": "/images/socials/github.svg",
 			"description": "Follow us on Github"
 		},
 		{
 			"name": "tiktok",
-			"url": "https://www.tiktok.com/hindulivenews",
+			"url": "https://www.tiktok.com/nwnownews",
 			"icon": "/images/socials/tiktok.svg",
 			"description": "Follow us on Tiktok"
 		}
@@ -82,11 +82,11 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2025 Hindu LIVE Media. All rights reserved."
+		"all_rights_reserved_text": "© 2025 NW Now News. All rights reserved."
 	},
 	"single_page": {
-		"show_view_cout": true,
-		"show_comment_count": true
+		"show_view_cout": false,
+		"show_comment_count": false
 	},
 	"search_page": {
 		"recommended_searches": {
@@ -120,7 +120,7 @@
 	},
 	"post_card": {
 		"show_view_cout": false,
-		"show_comment_count": true
+		"show_comment_count": false
 	},
 	"submissions-settings": {
 		"enable": true,
