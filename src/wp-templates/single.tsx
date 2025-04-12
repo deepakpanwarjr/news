@@ -239,7 +239,7 @@ const Component: FaustTemplate<GetPostSiglePageQuery> = (props) => {
 						{renderHeaderType()}
 {/* Banner before article content */}
             <AdBanner 
-              src="/data/ad-baner.jpg" 
+              src="public/images/ads-baner.jpg" 
               link="https://example.com"
               alt="Sponsored Content"
               width={728}
