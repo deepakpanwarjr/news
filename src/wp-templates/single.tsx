@@ -249,7 +249,14 @@ const Component: FaustTemplate<GetPostSiglePageQuery> = (props) => {
 							{/* SINGLE MAIN CONTENT */}
 							<SingleContent post={_post} />
 						</div>
-            
+             {/* Banner before related articles */}
+            <AdBanner 
+              src="/data/ads1.jpg" 
+              link="https://example.com"
+              alt="Sponsored Content"
+              width={728}
+              height={90}
+            />
 						{/* RELATED POSTS */}
 						<DynamicSingleRelatedPosts
 							posts={_relatedPosts}
